@@ -1,0 +1,22 @@
+You can save notes to a file with this and view them later.
+It's pretty straight forward.
+
+~/Projects/guile-scripts $ ./note.scm --help
+note [options]
+ -v --version  Display version
+ -h --help     Display help
+ -n --new      New task
+ -s --show     Show tasks
+~/Projects/guile-scripts $ ./note.scm --show
+Butcher GNU.
+Season GNU.
+Eat GNU.
+Clean dishes.
+~/Projects/guile-scripts $ ./note.scm --new "Salt the doorway."
+~/Projects/guile-scripts $ ./note.scm --show
+Butcher GNU.
+Season GNU.
+Eat GNU.
+Clean dishes.
+Salt the doorway.
+~/Projects/guile-scripts $ 
