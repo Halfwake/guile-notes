@@ -3,7 +3,6 @@
 !#
 
 (use-modules (ice-9 optargs)
-	     (ice-9 readline)
 	     (ice-9 getopt-long)
 	     (ice-9 rdelim))
 
